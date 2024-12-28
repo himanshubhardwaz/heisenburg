@@ -1,4 +1,4 @@
-import { ValidatorConfig, ValidatorFunction } from "../../types";
+import { ValidatorConfig, ValidatorFunction } from "../types";
 
 export default function equals(config: ValidatorConfig): ValidatorFunction {
   return function (value) {

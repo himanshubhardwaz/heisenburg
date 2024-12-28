@@ -1,4 +1,4 @@
-import { VALIDATORS } from "./lib/constants";
+import { VALIDATORS } from "./constants";
 
 export type ValidatorName = (typeof VALIDATORS)[number];
 

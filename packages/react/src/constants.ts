@@ -16,7 +16,3 @@ export const VALIDATORS = [
   "satisfiesRegex",
   "customValidator",
 ] as const;
-
-// This is the same email regex as browsers use when type="email"
-export const EMAIL_REGEXP =
-  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;

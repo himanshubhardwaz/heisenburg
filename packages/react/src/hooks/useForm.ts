@@ -1,5 +1,5 @@
 import { useReducer, useMemo, ChangeEvent, FormEvent } from "react";
-import * as importedValidators from "../lib/validations";
+import * as importedValidators from "@heisenberg/validations";
 import useDeepCompareEffect from "use-deep-compare-effect";
 
 import {

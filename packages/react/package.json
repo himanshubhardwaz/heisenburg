@@ -7,6 +7,7 @@
     "react-dom": ">=18.2.0"
   },
   "dependencies": {
-    "use-deep-compare-effect": "^1.8.1"
+    "use-deep-compare-effect": "^1.8.1",
+    "@heisenberg/validations": "workspace:*"
   }
 }
