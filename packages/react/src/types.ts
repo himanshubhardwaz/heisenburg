@@ -1,6 +1,4 @@
-import { VALIDATORS } from "./constants";
-
-export type ValidatorName = (typeof VALIDATORS)[number];
+import { type ValidatorName } from "@heisenberg/validations";
 
 export interface ValidatorConfig {
   message: string;

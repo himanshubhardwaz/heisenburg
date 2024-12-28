@@ -6,13 +6,3 @@ export const FORM_REDUCER_ACTIONS = [
   "validate",
   "blur",
 ] as const;
-
-export const VALIDATORS = [
-  "isEmail",
-  "isRequired",
-  "equals",
-  "max",
-  "min",
-  "satisfiesRegex",
-  "customValidator",
-] as const;
