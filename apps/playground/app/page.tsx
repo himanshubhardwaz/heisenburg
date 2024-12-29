@@ -1,10 +1,10 @@
 "use client";
 
-import { useForm } from "@heisenberg/react";
+import { useForm } from "@heisenburg/react";
 import type {
   OnSubmitCallbackContext,
   ValidationConfig,
-} from "@heisenberg/react";
+} from "@heisenburg/react";
 
 const validationFunction = (value: string) => {
   return value === "abc";

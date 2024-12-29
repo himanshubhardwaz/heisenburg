@@ -1,5 +1,6 @@
 {
-  "name": "@heisenberg/react",
+  "name": "@heisenburg/react",
+  "version": "0.0.1",
   "main": "./src/index.ts",
   "scripts": {
     "build": "tsup"
@@ -10,7 +11,7 @@
     "react-dom": ">=18.2.0"
   },
   "dependencies": {
-    "@heisenberg/validations": "workspace:*",
+    "@heisenburg/validations": "workspace:*",
     "use-deep-compare-effect": "^1.8.1"
   },
   "devDependencies": {

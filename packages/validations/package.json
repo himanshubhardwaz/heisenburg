@@ -1,4 +1,4 @@
 {
-  "name": "@heisenberg/validations",
+  "name": "@heisenburg/validations",
   "main": "./src/index.ts"
 }
