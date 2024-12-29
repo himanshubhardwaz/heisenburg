@@ -1,6 +1,6 @@
 # Heisenburg
 
-[![CI](https://github.com/himanshubhardwaz/heisenburg/actions/workflows/ci.yml/badge.svg)](https://github.com/himanshubhardwaz/heisenburg/actions/workflows/ci.yml)
+[![CI](https://github.com/himanshubhardwaz/heisenburg/actions/workflows/publish.yml/badge.svg)](https://github.com/himanshubhardwaz/heisenburg/actions/workflows/publish.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-cc00ff.svg)](https://pnpm.io/)
 
