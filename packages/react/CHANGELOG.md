@@ -1,5 +1,11 @@
 # @heisenburg/react
 
+## 0.3.0
+
+### Minor Changes
+
+- f2012ee: Updated readme, added example react playground
+
 ## 0.2.0
 
 ### Minor Changes
