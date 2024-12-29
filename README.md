@@ -51,14 +51,14 @@ pnpm dev
 | `pnpm lint`      | Lint codebase            |
 | `pnpm changeset` | Create changeset         |
 
-## Documentation
+<!-- ## Documentation
 
 Visit our [documentation site] to learn more about (TODO):
 
 - Getting started
 - Core concepts
 - API reference
-- Examples
+- Examples -->
 
 ## Contributing
 
