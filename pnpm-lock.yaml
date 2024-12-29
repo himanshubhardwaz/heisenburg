@@ -99,7 +99,11 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
 
-  packages/core: {}
+  packages/core:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.7)(postcss@8.4.49)(typescript@5.5.4)(yaml@2.6.1)
 
   packages/eslint-config:
     devDependencies:

@@ -15,7 +15,7 @@ A modern form validation ecosystem built with TypeScript.
 
 ## Project Structure
 
-```sh
+```
 .
 ├── apps
 │ ├── docs # Documentation site
