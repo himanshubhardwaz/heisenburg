@@ -5,7 +5,10 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "ci": "pnpm run lint && pnpm run build",
+    "changeset:version": "changeset version && pnpm -r generate:version && git add --all",
+    "changeset:publish": "changeset publish"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
