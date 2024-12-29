@@ -1,84 +1,78 @@
-# Turborepo starter
+# Heisenburg
 
-This is an official starter Turborepo.
+[![CI](https://github.com/himanshubhardwaz/heisenburg/actions/workflows/ci.yml/badge.svg)](https://github.com/himanshubhardwaz/heisenburg/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-cc00ff.svg)](https://pnpm.io/)
 
-## Using this example
+A modern form validation ecosystem built with TypeScript.
 
-Run the following command:
+## Features
+
+- 🔒 Type-safe validation
+- 🎯 Framework agnostic core
+- ⚡️ High performance
+- 📦 Modular architecture
+
+## Project Structure
 
 ```sh
-npx create-turbo@latest
+.
+├── apps
+│ ├── docs # Documentation site
+│ └── react-playground # Development playground
+└── packages
+├── core # Core validation logic
+├── react # React integration
+├── eslint-config # Shared ESLint config
+└── typescript-config # Shared TS config # Clone repository
 ```
 
-## What's inside?
+```sh
+# Clone repository
+git clone https://github.com/himanshubhardwaz/heisenburg.git
 
-This Turborepo includes the following packages/apps:
+# Install dependencies
+pnpm install
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
+# Build packages
 pnpm build
-```
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
+# Start development
 pnpm dev
 ```
 
-### Remote Caching
+### Available Commands
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+| Command          | Description              |
+| ---------------- | ------------------------ |
+| `pnpm dev`       | Start development server |
+| `pnpm build`     | Build all packages       |
+| `pnpm test`      | Run test suite           |
+| `pnpm lint`      | Lint codebase            |
+| `pnpm changeset` | Create changeset         |
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+## Documentation
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+Visit our [documentation site](https://heisenburg.dev) to learn more about:
 
-```
-cd my-turborepo
-npx turbo login
-```
+- Getting started
+- Core concepts
+- API reference
+- Examples
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+## Contributing
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-```
-npx turbo link
-```
+### Development Flow
 
-## Useful Links
+1. Fork the repository
+2. Create feature branch
+3. Make changes
+4. Add tests
+5. Create changeset
+6. Submit PR
 
-Learn more about the power of Turborepo:
+## License
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+MIT © Heisenburg Contributors

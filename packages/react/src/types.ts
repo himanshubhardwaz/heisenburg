@@ -1,4 +1,4 @@
-import { type ValidatorName } from "@heisenburg/validations";
+import { type ValidatorName } from "@heisenburg/cores";
 
 export interface ValidatorConfig {
   message: string;

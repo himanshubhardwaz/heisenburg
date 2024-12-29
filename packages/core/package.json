@@ -1,0 +1,4 @@
+{
+  "name": "@heisenburg/core",
+  "main": "./src/index.ts"
+}
