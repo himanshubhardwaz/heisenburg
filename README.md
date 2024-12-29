@@ -53,7 +53,7 @@ pnpm dev
 
 ## Documentation
 
-Visit our [documentation site](https://heisenburg.dev) to learn more about:
+Visit our [documentation site] to learn more about (TODO):
 
 - Getting started
 - Core concepts
@@ -75,4 +75,4 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## License
 
-MIT © Heisenburg Contributors
+MIT © Heisenburg
