@@ -194,6 +194,10 @@ export default function Home() {
 
 ---
 
+## 🎮 Playground
+
+Visit our example [playground](https://heisenburg-react-playground.vercel.app) to see @heisenburg/react in action.
+
 ## 🧩 Contributing
 
 We use **[Changesets](https://github.com/changesets/changesets)** for versioning and managing releases. To contribute:
